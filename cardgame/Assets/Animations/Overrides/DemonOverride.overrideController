@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DemonOverride
+  m_Controller: {fileID: 9100000, guid: ac7b1379f60bbf744a78062ec64dd2d9, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: eebbefaf547a52646a0ad6b8e9830981, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: eebbefaf547a52646a0ad6b8e9830981, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 5560e2ccb24c13f40acf18c12e6b1c9a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5560e2ccb24c13f40acf18c12e6b1c9a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 7a87d5145e00b2f40862b929f9868520, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7a87d5145e00b2f40862b929f9868520, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ac330ec3ba0a5c24b8aae9e538270e4a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c0f7b5a97c55eca46beb39bd4dfbee4c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3f3b88ddeb88aae43af8619b34f3c8c6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3f3b88ddeb88aae43af8619b34f3c8c6, type: 2}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08be6aef8a84c6e4b8200f6419814e32, type: 3}
+  m_Name: Vampire
+  m_EditorClassIdentifier: 
+  cardName: VAMPIRE
+  desc: ' On Going : Drains the life force of enemies, restoring 50% of the damage
+    dealt as Health.'
+  previewPrefab: {fileID: 4010288023457234910, guid: 7318b77bcb64bb54190ed307baaf2f34,
+    type: 3}
+  AttackPrefab: {fileID: 8258274423738635807, guid: 8ef78b6810c28a34b8eded1875e7efff,
+    type: 3}
+  AnimationOverrider: {fileID: 22100000, guid: 10f97ddb02a26e74e8f0516a061225b5, type: 2}
+  isRagdoll: 1
+  isHumanoid: 1
+  artwork: {fileID: 21300000, guid: f03360cb854d9fc4fbbb7d617a598451, type: 3}
+  manaCost: 5
+  attack: 6
+  attackSpeed: 2
+  health: 40
+  movementspeed: 55
+  AttackRange: 3
