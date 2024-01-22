@@ -25,7 +25,7 @@ public class InGameManager : MonoBehaviour
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, 100,LayerMask.GetMask("AI")))
+        if (Physics.Raycast(ray, out hit, 100,LayerMask.GetMask("Enemy","Allie")))
         {
             onSelect.Raise(hit.transform.GetComponentInParent<AIStateManager>(),null);
         }

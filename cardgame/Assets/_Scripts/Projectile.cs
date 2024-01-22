@@ -9,10 +9,23 @@ public class Projectile : MonoBehaviour
     private Sequence AttackSeq;
     private bool isProjectile = true;
     public AIStateManager ProjectileOwner;
+
+    private void Awake()
+    {
+        ProjectileOwner = transform.GetComponentInParent<AIStateManager>();
+        if (ProjectileOwner.isEnemy)
+        {
+            transform.gameObject.layer = LayerMask.NameToLayer("Enemy");
+        }
+        else
+        {
+            transform.gameObject.layer = LayerMask.NameToLayer("Allie");
+        }
+    }
     private void Start()
     {
         float time = 0.2f;
-        ProjectileOwner = transform.GetComponentInParent<AIStateManager>();
+
         if (isProjectile)
         {
             Vector3 dir = ProjectileOwner.ChasingEnemy.transform.position - transform.position;

@@ -110,6 +110,14 @@ public class AIStateManager : MonoBehaviour
         currentMovementSpeed = currentCard.movementspeed;
         currentAttackRange = currentCard.AttackRange;
         AttackOBJ = currentCard.AttackPrefab;
+        if (isEnemy)
+        {
+            transform.gameObject.layer = LayerMask.NameToLayer("Enemy");
+        }
+        else
+        {
+            transform.gameObject.layer = LayerMask.NameToLayer("Allie");
+        }
         if ((currentCard.isHumanoid) && currentCard.AnimationOverrider !=null)
         {
             ChangeAttackOverride(currentCard.AnimationOverrider);
